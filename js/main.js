@@ -28,9 +28,7 @@ function mapFly(lat, lng) {
     markerList.shift(markerList[0]) // remove old marker from the list
 }
 
-//https://geo.ipify.org/api/v2/country?apiKey=at_jJBqy2w9IGerhBCAVyMGTiAwkqYlB&ipAddress=8.8.8.8
-//https://geo.ipify.org/api/v2/country,city?apiKey=${key}=${ipAddress}
-let geoApiKey = 'at_jJBqy2w9IGerhBCAVyMGTiAwkqYlB';
+let geoApiKey = 'GET_YOUR_API_KEY'; //https://geo.ipify.org/
 let ipAddress = '8.8.8.8';
 
 //Patterns 
